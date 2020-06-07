@@ -6,23 +6,25 @@ header {
 	text-align: center;
 }
 
-body {
-	background-color: green;
-}
-
 section {
-	padding: 5px;
+	width: 31.3%;
 	text-align: justify;
 	border: 1px solid;
+	background-color: gray;
+	margin: 1%;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
 }
 
-#first, #second, #third {
+/*#first, #second, #third {
 	float: left;
 	width: 31.3%;
 	margin: 1%;
-}
+}*/
 
-#first {
+/*#first {
 	background-color: red;
 }
 
@@ -32,21 +34,15 @@ section {
 
 #third {
 	background-color: blue;
-}
+}*/
 
-#sub_title1 {
-	background-color: gray;
+#sub-div-1, #sub-div-2, #sub-div-3 {
+	background-color: red;
+	text-align: center;
+	width: 20%;
 	position: relative;
-}
-
-#sub_title2 {
-	background-color: gray;
-	position: relative;
-}
-
-#sub_title3 {
-	background-color: gray;
-	position: relative;
+	left: 334px;
+	margin-bottom: 5px;
 }
 
 @media (min-width: 768px and max-width: 991px) {
