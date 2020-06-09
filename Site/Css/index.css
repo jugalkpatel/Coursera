@@ -8,6 +8,7 @@
 header {
 	text-align: center;
 	font-family: monospace;
+	font-size: 20px;
 }
 
 .container {
@@ -45,11 +46,12 @@ h2 {
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	background-color: gray;
-	font-size: 15px;	
+	font-size: 20px;	
 	padding: 5px;
 }
 
 p {
+	font-size: 15px;
 	padding: 10px;
 	text-align: justify;
 	margin: 25px 10px 10px 10px; 
