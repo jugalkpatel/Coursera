@@ -8,3 +8,10 @@ ul a {
     border: 1px solid gray !important;
 }
 
+.container {
+    font-family: 'Comic Neue';
+}
+
+h1 {
+    text-align: center;
+}
