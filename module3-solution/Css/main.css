@@ -12,10 +12,19 @@ ul a {
     font-family: 'Comic Neue';
 }
 
-h1 {
-    text-align: center;
-}
-
 .section-color {
     background-color: gray;
+}
+
+.only-mobile {
+    visibility: hidden;
+}
+@media (max-width: 566px){
+    .col-xs-12 {
+        margin-bottom: 5px;
+    }
+
+    .only-mobile {
+        visibility: visible;
+    }
 }
