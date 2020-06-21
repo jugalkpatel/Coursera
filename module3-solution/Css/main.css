@@ -15,3 +15,7 @@ ul a {
 h1 {
     text-align: center;
 }
+
+.section-color {
+    background-color: gray;
+}
